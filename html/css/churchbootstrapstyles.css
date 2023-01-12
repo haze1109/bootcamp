@@ -1,0 +1,144 @@
+body {
+  margin: 0px;
+  font-family: "Tahoma";
+}
+.background-image {
+  background-image: url(../img/grainy.jpg);
+}
+ 
+
+table {
+  text-align: center;
+  background-color: rgb(70, 130, 180);
+  color: white;
+  width: 100%;
+}
+
+td {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 1px solid;
+
+}
+
+tr, td {
+    border:0px none black;
+    
+}
+
+#banner{
+  text-align: center;
+}
+#pastorthumb {
+display: flex; justify-content: center; align-items: flex-end;
+}
+
+#imagepastor {
+  width: 350px;
+}
+
+
+#image1 {
+
+width: 350px; margin-right: 20px;
+}
+
+#p1 {
+font-size: 200%; color: rgb(70, 130, 180);
+}
+
+
+#cross {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 20px;
+      
+}
+#image2 {
+  width: 120px;
+}
+#table{
+  
+          text-align: center;
+          list-style-position: inside;
+          margin-left: 150px;
+          margin-right: 150px;
+        
+        color: black
+}
+
+#ending{
+  
+        color: rgb(160, 160, 160);
+        font-size: 75%;
+        text-align: center;
+        margin-top: 50px;
+}
+#color{
+  color: rgb(160, 160, 160);
+}
+
+.wrapper a {
+  text-decoration: none;
+}
+
+.wrapper a:link {
+  background: blue;
+  font-size: 200%;
+}
+.wrapper a:visited {
+  background: orangered;
+}
+
+.wrapper a:hover {
+  background: magenta;
+  text-decoration: underline;
+}
+
+.wrapper a:active {
+  background: lime;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: center;
+  width: 300px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+ul.b {
+  list-style-position:inside;
+  margin:0;
+  padding:0;
+
+}
+h1 {
+  color: rgb(70, 130, 180);
+  
+}
+/* responsive css */
+@media screen and (max-width: 375px) {
+  .logo img{
+    width: 100%;
+  }
+}
+ul li{
+  list-style-position: outside;
+}
+.ul-title{
+  font-weight:400;
+}
+/* responsive css */

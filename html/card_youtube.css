@@ -1,0 +1,67 @@
+
+
+.container {
+    display: flex;
+}
+
+body {
+    background: #272727;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 270px;
+    margin: 10px;
+    border-radius: 20px 20px 0 0;
+}
+.card-image {
+   
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.car-1 {
+    background-image: url('img/car1.webp');
+}
+
+
+.car-2{
+    background-image: url('img/car2.jpg');
+}
+
+
+.car-3{
+    background-image: url('img/car4.jpg');
+}
+
+.card h2 {
+    padding: 10px;
+}
+
+.card p {
+    padding: 10px;
+}
+.card a {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+.card:hover {
+    background-color: #626262;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}

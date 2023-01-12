@@ -1,0 +1,39 @@
+<!-- HTML for a button group with options for each weather condition -->
+<div class="btn-group" role="group">
+  <button class="btn btn-secondary" id="sunny" data-weather="sunny">
+    Sunny
+  </button>
+  <button class="btn btn-secondary" id="rainy" data-weather="rainy">
+    Rainy
+  </button>
+  <button class="btn btn-secondary" id="snowy" data-weather="snowy">
+    Snowy
+  </button>
+  <button class="btn btn-secondary" id="cloudy" data-weather="cloudy">
+    Cloudy
+  </button>
+</div>
+
+<!-- placeholder element to hold the background image-->
+<div id="weather-bg"></div>
+// this is an array that holds the url of the images of weather conditions var
+weatherImages = { "sunny": "https://your-site.com/img/sunny.jpg", "rainy":
+"https://your-site.com/img/rainy.jpg", "snowy":
+"https://your-site.com/img/snowy.jpg", "cloudy":
+"https://your-site.com/img/cloudy.jpg" }; // this is an array that holds the
+different playlists var weatherPlaylists = { "sunny": [ {"title": "Happy Song
+1", "artist": "Artist 1", "url": "https://your-site.com/audio/happy1.mp3"},
+{"title": "Happy Song 2", "artist": "Artist 2", "url":
+"https://your-site.com/audio/happy2.mp3"}, ], "rainy": [ {"title": "Sad Song 1",
+"artist": "Artist 3", "url": "https://your-site.com/audio/sad1.mp3"}, {"title":
+"Sad Song 2", "artist": "Artist 4", "url":
+"https://your-site.com/audio/sad2.mp3"}, ], "snowy": [ {"title": "Cold Song 1",
+"artist": "Artist 5", "url": "https://your-site.com/audio/cold1.mp3"}, {"title":
+"Cold Song 2", "artist": "Artist 6", "url":
+"https://your-site.com/audio/cold2.mp3"}, ], "cloudy": [ {"title": "Cloudy Song
+1", "artist": "Artist 7", "url": "https://your-site.com/audio/cloudy1.mp3"},
+{"title": "Cloudy Song 2", "artist": "Artist 8", "url":
+"https://your-site.com/audio/cloudy2.mp3"}, ] }; // function to handle weather
+selection and updating the bg-image and audio player function
+changeWeather(weather) { var weatherBg = document.getElementById("weather-bg");
+var currentAudio

@@ -1,0 +1,39 @@
+$btn-font-family:"Comic Sans MS";        
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+$themeColor1: rgb(229, 79, 79);
+$themeColor2: blue;
+$themeColor3: green;
+$kotse: 400px;
+
+h1 {
+    color: $themeColor1;
+}
+
+p{
+    color: $themeColor1;
+}
+.cartype{
+    width: $kotse;
+}
+
+div {
+   
+    p {
+       color:  $themeColor2;
+    }
+}
+p {
+    color: $themeColor1;
+}
+div {
+    .subheading {
+        color:$themeColor3 ;
+    }
+    h1 {
+        color: $themeColor2;
+    }
+}
